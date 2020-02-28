@@ -1,8 +1,8 @@
 package calculator.swing;
 
 /**
- * Basic calculator program in swing
- * @author Kedalu
+ * Basic calculator program implemented using swing toolkit
+ * @author Keyikedalube
  */
 public class CalculatorSwing extends javax.swing.JFrame {
     
@@ -11,7 +11,7 @@ public class CalculatorSwing extends javax.swing.JFrame {
     
     private double operand1;
     private double operand2;
-    private char operator;          // temporarily holds the operator
+    private char operator;
     private boolean emptyOperand1;  // for toggling operand1 value status
     private boolean emptyOperand2;  // for toggling operand2 value status
     private double result;          // stores the computed mathematical result
@@ -22,9 +22,9 @@ public class CalculatorSwing extends javax.swing.JFrame {
     public CalculatorSwing() {
         stringLabel = new String();
         inputLabel = new String();
-        operand1 = operand2 = 0;
+        operand1 = operand2 = 0.0;
         emptyOperand1 = emptyOperand2 = true;
-        result = 0;
+        result = 0.0;
         initComponents();
     }
 
@@ -75,6 +75,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button1.setText("1");
+        button1.setDefaultCapable(false);
+        button1.setFocusable(false);
         button1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button1ActionPerformed(evt);
@@ -82,6 +84,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button2.setText("2");
+        button2.setDefaultCapable(false);
+        button2.setFocusable(false);
         button2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button2ActionPerformed(evt);
@@ -89,6 +93,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button3.setText("3");
+        button3.setDefaultCapable(false);
+        button3.setFocusable(false);
         button3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button3ActionPerformed(evt);
@@ -96,6 +102,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button4.setText("4");
+        button4.setDefaultCapable(false);
+        button4.setFocusable(false);
         button4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button4ActionPerformed(evt);
@@ -103,6 +111,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button5.setText("5");
+        button5.setDefaultCapable(false);
+        button5.setFocusable(false);
         button5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button5ActionPerformed(evt);
@@ -110,6 +120,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button6.setText("6");
+        button6.setDefaultCapable(false);
+        button6.setFocusable(false);
         button6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button6ActionPerformed(evt);
@@ -117,6 +129,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button7.setText("7");
+        button7.setDefaultCapable(false);
+        button7.setFocusable(false);
         button7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button7ActionPerformed(evt);
@@ -124,6 +138,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button8.setText("8");
+        button8.setDefaultCapable(false);
+        button8.setFocusable(false);
         button8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button8ActionPerformed(evt);
@@ -131,6 +147,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button9.setText("9");
+        button9.setDefaultCapable(false);
+        button9.setFocusable(false);
         button9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button9ActionPerformed(evt);
@@ -138,6 +156,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         button0.setText("0");
+        button0.setDefaultCapable(false);
+        button0.setFocusable(false);
         button0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 button0ActionPerformed(evt);
@@ -145,6 +165,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         buttonPoint.setText(".");
+        buttonPoint.setDefaultCapable(false);
+        buttonPoint.setFocusable(false);
         buttonPoint.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonPointActionPerformed(evt);
@@ -152,6 +174,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         buttonPlus.setText("+");
+        buttonPlus.setDefaultCapable(false);
+        buttonPlus.setFocusable(false);
         buttonPlus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonPlusActionPerformed(evt);
@@ -159,6 +183,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         buttonMinus.setText("-");
+        buttonMinus.setDefaultCapable(false);
+        buttonMinus.setFocusable(false);
         buttonMinus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonMinusActionPerformed(evt);
@@ -166,6 +192,7 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         buttonEqual.setText("=");
+        buttonEqual.setFocusable(false);
         buttonEqual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonEqualActionPerformed(evt);
@@ -173,6 +200,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         buttonDivide.setText("/");
+        buttonDivide.setDefaultCapable(false);
+        buttonDivide.setFocusable(false);
         buttonDivide.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonDivideActionPerformed(evt);
@@ -180,6 +209,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         });
 
         buttonProduct.setText("*");
+        buttonProduct.setDefaultCapable(false);
+        buttonProduct.setFocusable(false);
         buttonProduct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonProductActionPerformed(evt);
@@ -188,6 +219,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
 
         buttonClear.setBackground(new java.awt.Color(255, 102, 102));
         buttonClear.setText("C");
+        buttonClear.setDefaultCapable(false);
+        buttonClear.setFocusable(false);
         buttonClear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonClearActionPerformed(evt);
@@ -316,7 +349,9 @@ public class CalculatorSwing extends javax.swing.JFrame {
     
     
     /**
-     * This will be called when "=" button is clicked or "Enter" button is typed
+     * This will be called when
+     * "=" button is clicked or
+     * "Enter" button is pressed
      */
     private void equateEvent() {
         // If event occurs before any expression exists, then avoid parsing an
@@ -518,12 +553,8 @@ public class CalculatorSwing extends javax.swing.JFrame {
         getOperandsAndUpdatedisplayLabel();
     }
 
-    /**
-     * keyboard events
-     * @param evt 
-     */
-    // TODO: Label loses focus when button is clicked instead
     private void displayLabelKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_displayLabelKeyTyped
+        // TODO add your handling code here:
         char inputChar = evt.getKeyChar();
         switch (inputChar) {
             case '0':
@@ -630,7 +661,7 @@ public class CalculatorSwing extends javax.swing.JFrame {
                 break;
             case '\n':
                 equateEvent();
-        }            
+        }
     }//GEN-LAST:event_displayLabelKeyTyped
 
     /**
@@ -654,7 +685,7 @@ public class CalculatorSwing extends javax.swing.JFrame {
      * <br />
      * After trimming, the operator precedes the number.
      * <br />
-     * ex:- "+1" not "+ 1"
+     * ex:- "-1" not "- 1"
      */
     private void trimFirst() {
         switch (stringLabel) {
@@ -673,7 +704,7 @@ public class CalculatorSwing extends javax.swing.JFrame {
      */
     private void parseOperand1() {
         operand1 = Double.parseDouble(inputLabel);
-        System.out.println("operand1: " + operand1);
+//        System.out.println("operand1: " + operand1);
         // clear inputLabel so operand2 is easy to be parsed without
         // complicated string manipulation
         inputLabel = "";
@@ -737,7 +768,7 @@ public class CalculatorSwing extends javax.swing.JFrame {
                 result = operand1 * operand2;
         }
         emptyOperand1 = true;
-        System.out.println("result: " + result);
+//        System.out.println("result: " + result);
         stringLabel = formatResult();
     }
             

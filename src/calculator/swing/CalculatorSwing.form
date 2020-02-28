@@ -167,6 +167,8 @@
     <Component class="javax.swing.JButton" name="button1">
       <Properties>
         <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button1ActionPerformed"/>
@@ -175,6 +177,8 @@
     <Component class="javax.swing.JButton" name="button2">
       <Properties>
         <Property name="text" type="java.lang.String" value="2"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button2ActionPerformed"/>
@@ -183,6 +187,8 @@
     <Component class="javax.swing.JButton" name="button3">
       <Properties>
         <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button3ActionPerformed"/>
@@ -191,6 +197,8 @@
     <Component class="javax.swing.JButton" name="button4">
       <Properties>
         <Property name="text" type="java.lang.String" value="4"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button4ActionPerformed"/>
@@ -199,6 +207,8 @@
     <Component class="javax.swing.JButton" name="button5">
       <Properties>
         <Property name="text" type="java.lang.String" value="5"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button5ActionPerformed"/>
@@ -207,6 +217,8 @@
     <Component class="javax.swing.JButton" name="button6">
       <Properties>
         <Property name="text" type="java.lang.String" value="6"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button6ActionPerformed"/>
@@ -215,6 +227,8 @@
     <Component class="javax.swing.JButton" name="button7">
       <Properties>
         <Property name="text" type="java.lang.String" value="7"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button7ActionPerformed"/>
@@ -223,6 +237,8 @@
     <Component class="javax.swing.JButton" name="button8">
       <Properties>
         <Property name="text" type="java.lang.String" value="8"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button8ActionPerformed"/>
@@ -231,6 +247,8 @@
     <Component class="javax.swing.JButton" name="button9">
       <Properties>
         <Property name="text" type="java.lang.String" value="9"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button9ActionPerformed"/>
@@ -239,6 +257,8 @@
     <Component class="javax.swing.JButton" name="button0">
       <Properties>
         <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button0ActionPerformed"/>
@@ -247,6 +267,8 @@
     <Component class="javax.swing.JButton" name="buttonPoint">
       <Properties>
         <Property name="text" type="java.lang.String" value="."/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonPointActionPerformed"/>
@@ -255,6 +277,8 @@
     <Component class="javax.swing.JButton" name="buttonPlus">
       <Properties>
         <Property name="text" type="java.lang.String" value="+"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonPlusActionPerformed"/>
@@ -263,6 +287,8 @@
     <Component class="javax.swing.JButton" name="buttonMinus">
       <Properties>
         <Property name="text" type="java.lang.String" value="-"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonMinusActionPerformed"/>
@@ -271,6 +297,7 @@
     <Component class="javax.swing.JButton" name="buttonEqual">
       <Properties>
         <Property name="text" type="java.lang.String" value="="/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonEqualActionPerformed"/>
@@ -279,6 +306,8 @@
     <Component class="javax.swing.JButton" name="buttonDivide">
       <Properties>
         <Property name="text" type="java.lang.String" value="/"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonDivideActionPerformed"/>
@@ -287,6 +316,8 @@
     <Component class="javax.swing.JButton" name="buttonProduct">
       <Properties>
         <Property name="text" type="java.lang.String" value="*"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonProductActionPerformed"/>
@@ -298,6 +329,8 @@
           <Color blue="66" green="66" red="ff" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="C"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonClearActionPerformed"/>
